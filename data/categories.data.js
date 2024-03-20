@@ -1301,7 +1301,7 @@ exports.filters = [
         ],
       },
       {
-        name: "Khoảng giá",
+        name: "Lọc theo giá",
         metadata: "filter-price",
       },
     ],
@@ -1363,7 +1363,7 @@ exports.filters = [
         ],
       },
       {
-        name: "Khoảng giá",
+        name: "Lọc theo giá",
         metadata: "filter-price",
       },
       {
@@ -1432,7 +1432,7 @@ exports.filters = [
         ],
       },
       {
-        name: "Khoảng giá",
+        name: "Lọc theo giá",
         metadata: "filter-price",
       },
       {
@@ -1488,7 +1488,7 @@ exports.filters = [
         ],
       },
       {
-        name: "Khoảng giá",
+        name: "Lọc theo giá",
         metadata: "filter-price",
       },
       {
@@ -1564,7 +1564,7 @@ exports.filters = [
         ],
       },
       {
-        name: "Khoảng giá",
+        name: "Lọc theo giá",
         metadata: "filter-price",
       },
       {
@@ -1650,7 +1650,7 @@ exports.filters = [
         ],
       },
       {
-        name: "Khoảng giá",
+        name: "Lọc theo giá",
         metadata: "filter-price",
       },
       {
@@ -1730,7 +1730,7 @@ exports.filters = [
         ],
       },
       {
-        name: "Khoảng giá",
+        name: "Lọc theo giá",
         metadata: "filter-price",
       },
       {
@@ -1802,7 +1802,7 @@ exports.filters = [
         ],
       },
       {
-        name: "Khoảng giá",
+        name: "Lọc theo giá",
         metadata: "filter-price",
       },
     ],
@@ -1918,7 +1918,7 @@ exports.filters = [
         ],
       },
       {
-        name: "Khoảng giá",
+        name: "Lọc theo giá",
         metadata: "filter-price",
       },
       {
@@ -1970,7 +1970,7 @@ exports.filters = [
         ],
       },
       {
-        name: "Khoảng giá",
+        name: "Lọc theo giá",
         metadata: "filter-price",
       },
     ],
@@ -2038,7 +2038,7 @@ exports.filters = [
         ],
       },
       {
-        name: "Khoảng giá",
+        name: "Lọc theo giá",
         metadata: "filter-price",
       },
       {
@@ -2159,7 +2159,7 @@ exports.filters = [
         ],
       },
       {
-        name: "Khoảng giá",
+        name: "Lọc theo giá",
         metadata: "filter-price",
       },
       {
@@ -2236,7 +2236,7 @@ exports.filters = [
         ],
       },
       {
-        name: "Khoảng giá",
+        name: "Lọc theo giá",
         metadata: "filter-price",
       },
       {

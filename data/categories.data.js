@@ -600,6 +600,7 @@ exports.filters = [
     categoryId: null,
     filterList: [
       {
+        id: "category-menu",
         name: "Danh mục sản phẩm",
         metadata: [
           {
@@ -1301,8 +1302,8 @@ exports.filters = [
         ],
       },
       {
+        id: "filter-price",
         name: "Lọc theo giá",
-        metadata: "filter-price",
       },
     ],
   },
@@ -1310,6 +1311,7 @@ exports.filters = [
     categoryId: "1",
     filterList: [
       {
+        id: "category-menu",
         name: "Danh mục sản phẩm",
         metadata: [
           {
@@ -1363,10 +1365,11 @@ exports.filters = [
         ],
       },
       {
+        id: "filter-price",
         name: "Lọc theo giá",
-        metadata: "filter-price",
       },
       {
+        id: "filter-color",
         name: "Màu Sắc",
         metadata: [
           { name: "Đỏ", value: "red" },
@@ -1377,6 +1380,7 @@ exports.filters = [
         ],
       },
       {
+        id: "filter-address",
         name: "Xuất xứ",
         metadata: [
           { name: "Hồ Chí Minh", value: "ho chi minh" },
@@ -1391,6 +1395,7 @@ exports.filters = [
     categoryId: "2",
     filterList: [
       {
+        id: "category-menu",
         name: "Danh mục sản phẩm",
         metadata: [
           {
@@ -1432,10 +1437,11 @@ exports.filters = [
         ],
       },
       {
+        id: "filter-price",
         name: "Lọc theo giá",
-        metadata: "filter-price",
       },
       {
+        id: "filter-color",
         name: "Màu Sắc",
         metadata: [
           { name: "Đỏ", value: "red" },
@@ -1446,6 +1452,7 @@ exports.filters = [
         ],
       },
       {
+        id: "filter-age",
         name: "Độ tuổi phù hợp",
         metadata: [
           { name: "2 tuổi trở lên", value: "2 years" },
@@ -1459,6 +1466,7 @@ exports.filters = [
     categoryId: "3",
     filterList: [
       {
+        id: "category-menu",
         name: "Danh mục sản phẩm",
         metadata: [
           {
@@ -1488,10 +1496,11 @@ exports.filters = [
         ],
       },
       {
+        id: "filter-price",
         name: "Lọc theo giá",
-        metadata: "filter-price",
       },
       {
+        id: "filter-color",
         name: "Màu Sắc",
         metadata: [
           { name: "Đỏ", value: "red" },
@@ -1502,6 +1511,7 @@ exports.filters = [
         ],
       },
       {
+        id: "filter-feature",
         name: "Tính năng",
         metadata: [
           { name: "Độ bền", value: "reliability" },
@@ -1517,6 +1527,7 @@ exports.filters = [
     categoryId: "4",
     filterList: [
       {
+        id: "category-menu",
         name: "Danh mục sản phẩm",
         metadata: [
           {
@@ -1564,10 +1575,11 @@ exports.filters = [
         ],
       },
       {
+        id: "filter-price",
         name: "Lọc theo giá",
-        metadata: "filter-price",
       },
       {
+        id: "filter-size",
         name: "Kích cỡ",
         metadata: [
           { name: "35", value: "35" },
@@ -1580,6 +1592,7 @@ exports.filters = [
         ],
       },
       {
+        id: "filter-color",
         name: "Màu sắc",
         metadata: [
           { name: "Đen", value: "black" },
@@ -1597,6 +1610,7 @@ exports.filters = [
     categoryId: "5",
     filterList: [
       {
+        id: "category-menu",
         name: "Danh mục sản phẩm",
         metadata: [
           {
@@ -1650,10 +1664,11 @@ exports.filters = [
         ],
       },
       {
+        id: "filter-price",
         name: "Lọc theo giá",
-        metadata: "filter-price",
       },
       {
+        id: "filter-size",
         name: "Kích cỡ",
         metadata: [
           { name: "35", value: "35" },
@@ -1666,6 +1681,7 @@ exports.filters = [
         ],
       },
       {
+        id: "filter-color",
         name: "Màu sắc",
         metadata: [
           { name: "Đen", value: "black" },
@@ -1683,6 +1699,7 @@ exports.filters = [
     categoryId: "6",
     filterList: [
       {
+        id: "category-menu",
         name: "Danh mục sản phẩm",
         metadata: [
           {
@@ -1730,10 +1747,11 @@ exports.filters = [
         ],
       },
       {
+        id: "filter-price",
         name: "Lọc theo giá",
-        metadata: "filter-price",
       },
       {
+        id: "filter-brand",
         name: "Thương hiệu",
         metadata: [
           { name: "Sony", value: "sony" },
@@ -1749,6 +1767,7 @@ exports.filters = [
     categoryId: "7",
     filterList: [
       {
+        id: "category-menu",
         name: "Danh mục sản phẩm",
         metadata: [
           {
@@ -1802,8 +1821,8 @@ exports.filters = [
         ],
       },
       {
+        id: "filter-price",
         name: "Lọc theo giá",
-        metadata: "filter-price",
       },
     ],
   },
@@ -1811,6 +1830,7 @@ exports.filters = [
     categoryId: "8",
     filterList: [
       {
+        id: "category-menu",
         name: "Danh mục sản phẩm",
         metadata: [
           {
@@ -1918,10 +1938,11 @@ exports.filters = [
         ],
       },
       {
+        id: "filter-price",
         name: "Lọc theo giá",
-        metadata: "filter-price",
       },
       {
+        id: "filter-language",
         name: "Ngôn ngữ",
         metadata: [
           { name: "Tiếng Anh", value: "english" },
@@ -1935,6 +1956,7 @@ exports.filters = [
     categoryId: "9",
     filterList: [
       {
+        id: "category-menu",
         name: "Danh mục sản phẩm",
         metadata: [
           {
@@ -1970,8 +1992,8 @@ exports.filters = [
         ],
       },
       {
+        id: "filter-price",
         name: "Lọc theo giá",
-        metadata: "filter-price",
       },
     ],
   },
@@ -1979,6 +2001,7 @@ exports.filters = [
     categoryId: "10",
     filterList: [
       {
+        id: "category-menu",
         name: "Danh mục sản phẩm",
         metadata: [
           {
@@ -2038,10 +2061,11 @@ exports.filters = [
         ],
       },
       {
+        id: "filter-price",
         name: "Lọc theo giá",
-        metadata: "filter-price",
       },
       {
+        id: "filter-color",
         name: "Màu sắc",
         metadata: [
           { name: "Tím", value: "purple" },
@@ -2054,7 +2078,8 @@ exports.filters = [
         ],
       },
       {
-        name: "Chất lệu",
+        id: "filter-material",
+        name: "Chất liệu",
         metadata: [
           { name: "Nhựa", value: "plastic" },
           { name: "Kim loại", value: "black" },
@@ -2070,6 +2095,7 @@ exports.filters = [
     categoryId: "11",
     filterList: [
       {
+        id: "category-menu",
         name: "Danh mục sản phẩm",
         metadata: [
           {
@@ -2159,10 +2185,11 @@ exports.filters = [
         ],
       },
       {
+        id: "filter-price",
         name: "Lọc theo giá",
-        metadata: "filter-price",
       },
       {
+        id: "filter-address",
         name: "Xuất sứ",
         metadata: [
           { name: "Hà Nội", value: "ha noi" },
@@ -2177,6 +2204,7 @@ exports.filters = [
     categoryId: "12",
     filterList: [
       {
+        id: "category-menu",
         name: "Danh mục sản phẩm",
         metadata: [
           {
@@ -2236,10 +2264,11 @@ exports.filters = [
         ],
       },
       {
+        id: "filter-price",
         name: "Lọc theo giá",
-        metadata: "filter-price",
       },
       {
+        id: "filter-brand",
         name: "Thương hiệu sản phẩm tương thích",
         metadata: [
           { name: "Apple", value: "apple" },

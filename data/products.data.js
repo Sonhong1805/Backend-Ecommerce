@@ -2,6 +2,7 @@ exports.products = [
   {
     id: "01",
     name: "Bánh pía kim sa mini 40g dùng thử bánh pía Tân Huê Viên Sóc Trăng",
+slug:"banh-pia-kim-sa-mini-40g-dung-thu-banh-pia-tan-hue-vien-soc-trang",
     images: [
       "/images/bach-hoa-online/banh-bao-kimsa-1.jpg_.webp",
       "/images/bach-hoa-online/banh-bao-kimsa-2.jpg_.webp",
@@ -50,6 +51,7 @@ exports.products = [
   {
     id: "02",
     name: "COMBO siêu rẻ bánh tráng phơi sương muối tép hành NHỎ (Tặng bơ)",
+slug:"combo-sieu-re-banh-trang-phoi-suong-muoi-tep-hanh-nho",
     images: ["/images/bach-hoa-online/banh-trang-phoi-suong.jpg_.webp"],
     price: 56000,
     discount: 50,
@@ -99,6 +101,7 @@ exports.products = [
   {
     id: "03",
     name: "Tóp mỡ mắm tỏi lá chanh NHÀ LÀM siêu ngon, đồ ăn vặt đảm bảo vệ sinh an toàn thực phẩm",
+slug:"top-mo-mam-toi-la-chanh-nha-lam-sieu-ngon-do-an-vat-dam-bao-ve-sinh-an-toan-thuc-pham",
     images: [
       "/images/bach-hoa-online/top-mo-1.jpg_.webp",
       "/images/bach-hoa-online/top-mo-2.jpg_.webp",
@@ -142,6 +145,7 @@ exports.products = [
   {
     id: "04",
     name: "Xúc Xích Bò BBQ Cay Nhẹ ,Đồ Ăn Vặt Trung Hoa",
+slug:"xuc-xich-bo-bbq-cay-nhe-do-an-vat-trung-hoa",
     images: [
       "/images/bach-hoa-online/xuc-xich-bbq-1.jpg_.webp",
       "/images/bach-hoa-online/xuc-xich-bbq-2.jpg_.webp",
@@ -198,6 +202,7 @@ exports.products = [
   {
     id: "05",
     name: "SET TRÀ SỮA TRÂN CHÂU CAO CẤP ĐẦY ĐỦ VỊ - SET TRÀ SỮA SIÊU TO KHỔNG LỒ",
+slug:"set-tra-sua-tran-chau-cao-cap-day-du-vi-set-tra-sua-sieu-to-khong-lo",
     images: [
       "/images/bach-hoa-online/tra-sua-1.jpg_.webp",
       "/images/bach-hoa-online/tra-sua-2.jpg_.webp",
@@ -261,6 +266,7 @@ exports.products = [
   {
     id: "06",
     name: "Táo đỏ sấy khô Hàn Quốc loại 1 thương hiệu Samsung hộp 1kg kèm túi sang trọng - Hàng chính hãng - Quà biếu Tết sang xịn mịn",
+slug:"tao-do-say-kho-han-quoc-loai-1-thuong-hieu-samsung-hop-1kg-kem-tui-sang-trong-hang-chinh-hang-qua-bieu-tet-sang-xin-min",
     images: [
       "/images/bach-hoa-online/tao-do-1.jpg_.webp",
       "/images/bach-hoa-online/tao-do-2.jpg_.webp",
@@ -303,6 +309,7 @@ exports.products = [
   {
     id: "07",
     name: "Đồ Chơi Pop IT Bấm Nút Theo Đèn - Pop IT Thế Hệ Mới Nhiều Cấp Độ Khi Chơi - Đồ Chơi Giải Trí Xã Tress",
+slug:"do-choi-pop-it-bam-nut-theo-den-pop-it-the-he-moi-nhieu-cap-do-khi-choi-do-choi-giai-tri-xa-stress",
     images: [
       "/images/do-choi/pop-it-1.jpg_.webp",
       "/images/do-choi/pop-it-2.png_.webp",

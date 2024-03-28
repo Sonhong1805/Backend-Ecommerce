@@ -28,3 +28,13 @@ exports.getFilters = (req, res) => {
     },
   });
 };
+
+exports.getDetail = (req, res) => {
+  const { detail } = req.query;
+  const objDetail = products.find((product) => product.slug === detail);
+
+  res.status(200).json({
+    status: "success",
+    data: { objDetail },
+  });
+};

@@ -32,6 +32,7 @@ app.route("/categories/filters").get(categoryController.getFilters);
 
 app.route("/products").get(productController.getProducts);
 app.route("/products/filters").get(productController.getFilters);
+app.route("/products/detail").get(productController.getDetail);
 
 app.use(authenticateJWT);
 

@@ -2,10 +2,10 @@ exports.products = [
   {
     id: "01",
     name: "Bánh pía kim sa mini 40g dùng thử bánh pía Tân Huê Viên Sóc Trăng",
-slug:"banh-pia-kim-sa-mini-40g-dung-thu-banh-pia-tan-hue-vien-soc-trang",
+    slug: "banh-pia-kim-sa-mini-40g-dung-thu-banh-pia-tan-hue-vien-soc-trang",
     images: [
       "/images/bach-hoa-online/banh-bao-kimsa-1.jpg_.webp",
-      "/images/bach-hoa-online/banh-bao-kimsa-2.jpg_.webp",
+      "/images/bach-hoa-online/banh bao-kimsa-2.jpg_.webp",
       "/images/bach-hoa-online/banh-bao-kimsa-3.jpg_.webp",
       "/images/bach-hoa-online/banh-bao-kimsa-4.jpg_.webp",
       "/images/bach-hoa-online/banh-bao-kimsa-5.jpg_.webp",
@@ -15,16 +15,44 @@ slug:"banh-pia-kim-sa-mini-40g-dung-thu-banh-pia-tan-hue-vien-soc-trang",
     type: [
       {
         name: "Phân loại",
+        slug: "phan-loai",
         value: [
-          "ĐẬU XANH TRỨNG",
-          "LÁ DỨA TRỨNG",
-          "MÈ ĐEN TRỨNG",
-          "BÍ ĐỎ",
-          "ĐẬU ĐỎ TRỨNG",
-          "TRÀ XANH TRỨNG",
-          "THỊT CHÀ BÔNG BÒ",
-          "CHÀ BÔNG TRỨNG MUỐI",
-          "ĐẬU XANH SẦU RIÊNG",
+          {
+            name: "ĐẬU XANH TRỨNG",
+            slug: "dau-xanh-trung",
+          },
+          {
+            name: "LÁ DỨA TRỨNG",
+            slug: "la-dua-trung",
+          },
+          {
+            name: "MÈ ĐEN TRỨNG",
+            slug: "me-den-trung",
+          },
+          {
+            name: "BÍ ĐỎ",
+            slug: "bi-do",
+          },
+          {
+            name: "ĐẬU ĐỎ TRỨNG",
+            slug: "dau-do-trung",
+          },
+          {
+            name: "TRÀ XANH TRỨNG",
+            slug: "tra-xanh-trung",
+          },
+          {
+            name: "THỊT CHÀ BÔNG BÒ",
+            slug: "thit-cha-bong-bo",
+          },
+          {
+            name: "CHÀ BÔNG TRỨNG MUỐI",
+            slug: "cha-bong-trung-muoi",
+          },
+          {
+            name: "ĐẬU XANH SẦU RIÊNG",
+            slug: "dau-xanh-sau-rieng",
+          },
         ],
       },
     ],
@@ -39,6 +67,7 @@ slug:"banh-pia-kim-sa-mini-40g-dung-thu-banh-pia-tan-hue-vien-soc-trang",
     descriptions: ["Đường thấp", "Không bảo hành"],
     evaluates: [
       {
+        id: 1,
         name: "Nguyen Van A",
         star: 5,
         content:
@@ -51,20 +80,39 @@ slug:"banh-pia-kim-sa-mini-40g-dung-thu-banh-pia-tan-hue-vien-soc-trang",
   {
     id: "02",
     name: "COMBO siêu rẻ bánh tráng phơi sương muối tép hành NHỎ (Tặng bơ)",
-slug:"combo-sieu-re-banh-trang-phoi-suong-muoi-tep-hanh-nho",
+    slug: "combo-sieu-re-banh-trang-phoi-suong-muoi-tep-hanh-nho",
     images: ["/images/bach-hoa-online/banh-trang-phoi-suong.jpg_.webp"],
     price: 56000,
     discount: 50,
     type: [
       {
         name: "Phân loại",
+        slug: "phan-loai",
         value: [
-          "COMBO 300g (ít bánh)",
-          "COMBO 450g",
-          "COMBO 520g",
-          "COMBO 500g",
-          "COMBO 570g",
-          "COMBO MUỐI SẶC",
+          {
+            name: "COMBO 300g (ít bánh)",
+            slug: "combo-300g",
+          },
+          {
+            name: "COMBO 450g",
+            slug: "combo-450g",
+          },
+          {
+            name: "COMBO 520g",
+            slug: "combo-520g",
+          },
+          {
+            name: "COMBO 500g",
+            slug: "combo-500g",
+          },
+          {
+            name: "COMBO 570g",
+            slug: "combo-570g",
+          },
+          {
+            name: "COMBO MUỐI SẶC",
+            slug: "combo-muoi-sac",
+          },
         ],
       },
     ],
@@ -89,6 +137,7 @@ slug:"combo-sieu-re-banh-trang-phoi-suong-muoi-tep-hanh-nho",
     ],
     evaluates: [
       {
+        id: 1,
         name: "Nguyen Van B",
         star: 4,
         content:
@@ -101,7 +150,7 @@ slug:"combo-sieu-re-banh-trang-phoi-suong-muoi-tep-hanh-nho",
   {
     id: "03",
     name: "Tóp mỡ mắm tỏi lá chanh NHÀ LÀM siêu ngon, đồ ăn vặt đảm bảo vệ sinh an toàn thực phẩm",
-slug:"top-mo-mam-toi-la-chanh-nha-lam-sieu-ngon-do-an-vat-dam-bao-ve-sinh-an-toan-thuc-pham",
+    slug: "top-mo-mam-toi-la-chanh-nha-lam-sieu-ngon-do-an-vat-dam-bao-ve-sinh-an-toan-thuc-pham",
     images: [
       "/images/bach-hoa-online/top-mo-1.jpg_.webp",
       "/images/bach-hoa-online/top-mo-2.jpg_.webp",
@@ -115,7 +164,17 @@ slug:"top-mo-mam-toi-la-chanh-nha-lam-sieu-ngon-do-an-vat-dam-bao-ve-sinh-an-toa
     type: [
       {
         name: "Phân loại",
-        value: ["Cay vừa", "Cay nhiều"],
+        slug: "phan-loai",
+        value: [
+          {
+            name: "Cay vừa",
+            slug: "cay-vua",
+          },
+          {
+            name: "Cay nhiều",
+            slug: "cay-nhieu",
+          },
+        ],
       },
     ],
     color: ["yellow"],
@@ -133,6 +192,7 @@ slug:"top-mo-mam-toi-la-chanh-nha-lam-sieu-ngon-do-an-vat-dam-bao-ve-sinh-an-toa
     ],
     evaluates: [
       {
+        id: 1,
         name: "Nguyen Van C",
         star: 5,
         content:
@@ -145,7 +205,7 @@ slug:"top-mo-mam-toi-la-chanh-nha-lam-sieu-ngon-do-an-vat-dam-bao-ve-sinh-an-toa
   {
     id: "04",
     name: "Xúc Xích Bò BBQ Cay Nhẹ ,Đồ Ăn Vặt Trung Hoa",
-slug:"xuc-xich-bo-bbq-cay-nhe-do-an-vat-trung-hoa",
+    slug: "xuc-xich-bo-bbq-cay-nhe-do-an-vat-trung-hoa",
     images: [
       "/images/bach-hoa-online/xuc-xich-bbq-1.jpg_.webp",
       "/images/bach-hoa-online/xuc-xich-bbq-2.jpg_.webp",
@@ -161,15 +221,40 @@ slug:"xuc-xich-bo-bbq-cay-nhe-do-an-vat-trung-hoa",
     type: [
       {
         name: "Phân loại",
+        slug: "phan-loai",
         value: [
-          "Xúc Xích BBQ",
-          "Bim Bim Cánh Gà",
-          "Thịt BBQ Cay",
-          "Thịt BBQ Cay Tiêu",
-          "Thịt BBQ Hải Sản",
-          "X.Xúc Hồng Ít Cay",
-          "X.Xúc Xanh Tr.Thống",
-          "X.Xúc Bò Topping Bắp",
+          {
+            name: "Xúc Xích BBQ",
+            slug: "xuc-xich-bbq",
+          },
+          {
+            name: "Bim Bim Cánh Gà",
+            slug: "bim-bim-canh-ga",
+          },
+          {
+            name: "Thịt BBQ Cay",
+            slug: "thit-bbq-cay",
+          },
+          {
+            name: "Thịt BBQ Cay Tiêu",
+            slug: "thit-bbq-cay-tieu",
+          },
+          {
+            name: "Thịt BBQ Hải Sản",
+            slug: "thit-bbq-hai-san",
+          },
+          {
+            name: "X.Xúc Hồng Ít Cay",
+            slug: "xuc-xich-hong-it-cay",
+          },
+          {
+            name: "X.Xúc Xanh Tr.Thống",
+            slug: "xuc-xich-xanh-truyen-thong",
+          },
+          {
+            name: "X.Xúc Bò Topping Bắp",
+            slug: "xuc-xich-bo-topping-bap",
+          },
         ],
       },
     ],
@@ -190,6 +275,7 @@ slug:"xuc-xich-bo-bbq-cay-nhe-do-an-vat-trung-hoa",
     ],
     evaluates: [
       {
+        id: 1,
         name: "Nguyen Van D",
         star: 5,
         content:
@@ -202,7 +288,7 @@ slug:"xuc-xich-bo-bbq-cay-nhe-do-an-vat-trung-hoa",
   {
     id: "05",
     name: "SET TRÀ SỮA TRÂN CHÂU CAO CẤP ĐẦY ĐỦ VỊ - SET TRÀ SỮA SIÊU TO KHỔNG LỒ",
-slug:"set-tra-sua-tran-chau-cao-cap-day-du-vi-set-tra-sua-sieu-to-khong-lo",
+    slug: "set-tra-sua-tran-chau-cao-cap-day-du-vi-set-tra-sua-sieu-to-khong-lo",
     images: [
       "/images/bach-hoa-online/tra-sua-1.jpg_.webp",
       "/images/bach-hoa-online/tra-sua-2.jpg_.webp",
@@ -216,18 +302,51 @@ slug:"set-tra-sua-tran-chau-cao-cap-day-du-vi-set-tra-sua-sieu-to-khong-lo",
     type: [
       {
         name: "Phân loại",
+        slug: "phan-loai",
         value: [
-          "Phúc Long",
-          "Thái xanh",
-          "Thái đỏ",
-          "Khoai môn",
-          "Matcha",
-          "Socola",
+          {
+            name: "Phúc Long",
+            slug: "phuc-long",
+          },
+          {
+            name: "Thái xanh",
+            slug: "thai-xanh",
+          },
+          {
+            name: "Thái đỏ",
+            slug: "thai-do",
+          },
+          {
+            name: "Khoai môn",
+            slug: "khoai-mon",
+          },
+          {
+            name: "Matcha",
+            slug: "matcha",
+          },
+          {
+            name: "Socola",
+            slug: "socala",
+          },
         ],
       },
       {
         name: "Thể tích",
-        value: ["Nhỏ (1-2 lít)", "Vừa (2.5-3 lít)", "To (4-5 lít)"],
+        slug: "the-tich",
+        value: [
+          {
+            name: "Nhỏ (1-2 lít)",
+            slug: "small",
+          },
+          {
+            name: "Vừa (2.5-3 lít)",
+            slug: "medium",
+          },
+          {
+            name: "To (4-5 lít)",
+            slug: "big",
+          },
+        ],
       },
     ],
     color: ["yellow", "green", "blue", "black", "white", "pink"],
@@ -254,6 +373,7 @@ slug:"set-tra-sua-tran-chau-cao-cap-day-du-vi-set-tra-sua-sieu-to-khong-lo",
     ],
     evaluates: [
       {
+        id: 1,
         name: "Nguyen Van E",
         star: 5,
         content:
@@ -266,7 +386,7 @@ slug:"set-tra-sua-tran-chau-cao-cap-day-du-vi-set-tra-sua-sieu-to-khong-lo",
   {
     id: "06",
     name: "Táo đỏ sấy khô Hàn Quốc loại 1 thương hiệu Samsung hộp 1kg kèm túi sang trọng - Hàng chính hãng - Quà biếu Tết sang xịn mịn",
-slug:"tao-do-say-kho-han-quoc-loai-1-thuong-hieu-samsung-hop-1kg-kem-tui-sang-trong-hang-chinh-hang-qua-bieu-tet-sang-xin-min",
+    slug: "tao-do-say-kho-han-quoc-loai-1-thuong-hieu-samsung-hop-1kg-kem-tui-sang-trong-hang-chinh-hang-qua-bieu-tet-sang-xin-min",
     images: [
       "/images/bach-hoa-online/tao-do-1.jpg_.webp",
       "/images/bach-hoa-online/tao-do-2.jpg_.webp",
@@ -297,6 +417,7 @@ slug:"tao-do-say-kho-han-quoc-loai-1-thuong-hieu-samsung-hop-1kg-kem-tui-sang-tr
     ],
     evaluates: [
       {
+        id: 1,
         name: "Nguyen Van F",
         star: 5,
         content:
@@ -309,7 +430,7 @@ slug:"tao-do-say-kho-han-quoc-loai-1-thuong-hieu-samsung-hop-1kg-kem-tui-sang-tr
   {
     id: "07",
     name: "Đồ Chơi Pop IT Bấm Nút Theo Đèn - Pop IT Thế Hệ Mới Nhiều Cấp Độ Khi Chơi - Đồ Chơi Giải Trí Xã Tress",
-slug:"do-choi-pop-it-bam-nut-theo-den-pop-it-the-he-moi-nhieu-cap-do-khi-choi-do-choi-giai-tri-xa-stress",
+    slug: "do-choi-pop-it-bam-nut-theo-den-pop-it-the-he-moi-nhieu-cap-do-khi-choi-do-choi-giai-tri-xa-stress",
     images: [
       "/images/do-choi/pop-it-1.jpg_.webp",
       "/images/do-choi/pop-it-2.png_.webp",
@@ -342,6 +463,7 @@ slug:"do-choi-pop-it-bam-nut-theo-den-pop-it-the-he-moi-nhieu-cap-do-khi-choi-do
     ],
     evaluates: [
       {
+        id: 1,
         name: "Nguyen Van G",
         star: 5,
         content: "tuyệt vời chơi rất hay giao hàng nhanh",
